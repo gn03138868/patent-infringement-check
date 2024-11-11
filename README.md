@@ -39,7 +39,7 @@ JavaScript Libraries:
 3.1. Clone the repository:
 
 ''''bash
-git clone https://github.com/your-username/patent-infringement-check.git
+git clone https://github.com/gn03138868/patent-infringement-check.git
 
 cd patent-infringement-check
 
