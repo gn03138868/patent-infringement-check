@@ -170,21 +170,21 @@ Example of a response:
 patent-infringement-check/  
 │  
 ├── backend/  
-│   ├── app.py                # Main Flask API file  
-│   ├── infringe_check.py      # Core logic for infringement checking  
-│   ├── patents.json           # Sample patent data  
-│   ├── company_products.json  # Sample company products data  
-│   ├── requirements.txt       # Backend dependencies  
-│   └── tests/  
-│       └── test_infringe_check.py  # Unit tests  
+│     ├── app.py                # Main Flask API file  
+│     ├── infringe_check.py      # Core logic for infringement checking  
+│     ├── patents.json           # Sample patent data  
+│     ├── company_products.json  # Sample company products data  
+│     ├── requirements.txt       # Backend dependencies  
+│     └── tests/  
+│         └── test_infringe_check.py  # Unit tests  
 │  
 ├── frontend/  
-│   ├── src/  
-│   │   ├── App.js             # Main React component  
-│   │   └── index.js           # React entry point  
-│   ├── Dockerfile             # Docker configuration for frontend  
-│   └── package.json           # Frontend dependencies  
-│  
+│     ├── src/  
+│     │   ├── App.js             # Main React component  
+│     │   └── index.js           # React entry point  
+│     ├── Dockerfile             # Docker configuration for frontend  
+│     └── package.json           # Frontend dependencies  
+│    
 ├── docker-compose.yml         # Docker Compose file to run both backend and frontend  
 └── README.md                  # Project documentation  
   
